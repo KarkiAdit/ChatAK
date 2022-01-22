@@ -38,7 +38,6 @@ pickleshare==0.7.5
 Pillow==8.3.1
 progressbar==2.5
 prompt-toolkit==3.0.19
-pycairo @ file:///C:/Users/laptop/Downloads/pycairo-1.20.1-cp39-cp39-win_amd64.whl
 pycodestyle==2.8.0
 pydub==0.25.1
 pyglet==1.5.18
