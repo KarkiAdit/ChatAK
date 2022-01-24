@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-  <link rel="stylesheet" href="styles.css" />
-
+  <link
+    rel="stylesheet"
+    href="{{ url_for('static', filename='styles.css') }}"
+  />
   <head>
     <meta charset="UTF-8" />
     <title>Chatbot</title>
@@ -10,7 +12,7 @@
     <nav>
       <!--logo--------------->
       <a href="#" class="logo" alt="Aditya">
-        <img src="logo-Aditya.png" />
+        <img src="{{ url_for('static', filename='logo-Aditya.png') }}" />
       </a>
       <div id="myLinks">
         <a href="#about">About</a>
@@ -24,13 +26,19 @@
       </a>
       <!--chat me--------->
       <a href="#myLinks" class="icon chatbox__button">
-        <img src="chatbot-icon.png" alt="ChatAK" />
+        <img
+          src="{{ url_for('static', filename='chatbot-icon.png') }}"
+          alt="ChatAK"
+        />
       </a>
     </nav>
     <div class="chatbox__support">
       <div class="chatbox__header">
         <div class="chatbox__image--header">
-          <img src="chatbot-icon.png" alt="image" />
+          <img
+            src="{{ url_for('static', filename='chatbot-icon.png') }}"
+            alt="image"
+          />
         </div>
         <div class="chatbox__content--header">
           <h4 class="chatbox__heading--header">KNOW ME BETTER</h4>
@@ -51,6 +59,9 @@
     <script>
       $SCRIPT_ROOT = {{ request.script_root|tojson }};
     </script>
-    <script type="text/javascript" src="main.js"></script>
+    <script
+      type="text/javascript"
+      src="{{ url_for('static', filename='main.js') }}"
+    ></script>
   </body>
 </html>
