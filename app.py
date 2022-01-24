@@ -6,6 +6,11 @@ app = Flask(__name__)
 CORS(app)
 
 
+@app.route("/")
+def show():
+    return "Hello! This is the chatbot"
+
+
 @app.post("/predict")
 def predict():
     text = request.get_json().get("message")
