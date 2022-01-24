@@ -10,7 +10,7 @@ CORS(app)
 
 @app.route("/")
 def show():
-    return "Hello! This is the chatbot"
+    return render_template("index.html")
 
 
 @app.post("/predict")
