@@ -4,6 +4,8 @@ In this project, I have hard-coded ChatAK, an AI powered chatbot that uses `deep
 
 I have deployed this chatbot using Flask and JavaScript in Heroku: [See deployed app here.](https://chatak.herokuapp.com/)
 
+https://user-images.githubusercontent.com/68220732/151193740-ebddd25d-d0a7-44ab-80f3-f4f9ecd09626.mp4
+
 ## Initial setup for running the app in your computer:
 
 `This repo currently contains the final files.`
