@@ -1,23 +1,25 @@
 # ChatAK (AI powered chatbot built from scratch for personalized responses)
 
-In this project, I have hard-coded ChatAK, an AI powered chatbot that uses deep learning and neural networks based Machine learning algorithms. This chatbot predicts the responses using Python's Pytorch library. I have used personalized datasets to train it. I created in [this](https://github.com/python-engineer/pytorch-chatbot) tutorial with Flask and JavaScript.
+In this project, I have hard-coded ChatAK, `an AI powered chatbot that uses deep learning and neural networks based Machine learning algorithms.` This chatbot predicts the responses using `Python's Pytorch library.` I have used `personalized datasets` to train it.
+
+I have deployed this chatbot using Flask and JavaScript in Heroku: [See the Deployment here](https://chatak.herokuapp.com/)
 
 This gives 2 deployment options:
 
 - Deploy within Flask app with jinja2 template
 - Serve only the Flask prediction API. The used html and javascript files can be included in any Frontend application (with only a slight modification) and can run completely separate from the Flask App then.
 
-## Initial Setup:
+## Initial setup for running the app in your computer:
 
-This repo currently contains the starter files.
+This repo currently contains the final files.
 
-Clone repo and create a virtual environment
+Clone repo and create a virtual environment. Below is the procedure for Windows users.
 
 ```
 $ git clone https://github.com/python-engineer/chatbot-deployment.git
 $ cd chatbot-deployment
-$ python3 -m venv venv
-$ . venv/bin/activate
+$ python -m venv venv
+$ source venv/Scripts/activate
 ```
 
 Install dependencies
@@ -49,18 +51,4 @@ the following command to test it in the console.
 $ (venv) python chat.py
 ```
 
-Now for deployment follow my tutorial to implement `app.py` and `app.js`.
-
-## Watch the Tutorial
-
-[![Alt text](https://img.youtube.com/vi/a37BL0stIuM/hqdefault.jpg)](https://youtu.be/a37BL0stIuM)  
-[https://youtu.be/a37BL0stIuM](https://youtu.be/a37BL0stIuM)
-
-## Note
-
-In the video we implement the first approach using jinja2 templates within our Flask app. Only slight modifications are needed to run the frontend separately. I put the final frontend code for a standalone frontend application in the [standalone-frontend](/standalone-frontend) folder.
-
-## Credits:
-
-This repo was used for the frontend code:
-https://github.com/hitchcliff/front-end-chatjs
+Now for deployment upload the root directory (chatbot-deployment) to [GitHub](https://github.com/) and [Heroku](https://id.heroku.com/login). After this, publish your root directory in GitHub as a repository, create a web-app in Heroku and link the published repository to the web-app. Learn more about deployment in Heroku[here](https://www.youtube.com/watch?v=6plVs_ytIH8&t=1249s)
