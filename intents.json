@@ -1,76 +1,243 @@
 {
   "intents": [
     {
-      "tag": "greeting",
+      "tag": "greeting-v1",
       "patterns": [
         "Hi",
         "Hey",
-        "How are you",
         "Is anyone there?",
         "Hello",
-        "Good day"
+        "Namaste",
+        "Namaskar",
+        "Greetings"
       ],
       "responses": [
-        "Hey :-)",
-        "Hello, thanks for visiting",
-        "Hi there, what can I do for you?",
-        "Hi there, how can I help?"
+        "Hey :-) How can I help?",
+        "Hello there, how can I help?",
+        "Namaste, ChatAK is on for you :-) How can I help?"
       ]
     },
     {
-      "tag": "goodbye",
-      "patterns": ["Bye", "See you later", "Goodbye"],
-      "responses": [
-        "See you later, thanks for visiting",
-        "Have a nice day",
-        "Bye! Come back again soon."
-      ]
-    },
-    {
-      "tag": "thanks",
-      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
-      "responses": ["Happy to help!", "Any time!", "My pleasure"]
-    },
-    {
-      "tag": "items",
+      "tag": "greeting-v2",
       "patterns": [
-        "Which items do you have?",
-        "What kinds of items are there?",
-        "What do you sell?"
+        "Good day",
+        "Good-day",
+        "G'Day",
+        "Good evening",
+        "Good afternoon",
+        "Good noon",
+        "Good morning"
       ],
       "responses": [
-        "We sell coffee and tea",
-        "We have coffee and tea"
+        "You made my day. Thank you!"
       ]
     },
     {
-      "tag": "payments",
+      "tag": "goodbye-v1",
       "patterns": [
-        "Do you take credit cards?",
-        "Do you accept Mastercard?",
-        "Can I pay with Paypal?",
-        "Are you cash only?"
+        "Bye",
+        "You later", 
+        "Goodbye", 
+        "Goodnight", 
+        "Hit the road", 
+        "Gotta head out",
+        "Adieu",
+        "Farewell",
+        "See you",
+        "Gotta go",
+        "Keep in touch"
       ],
       "responses": [
-        "We accept VISA, Mastercard and Paypal",
-        "We accept most major credit cards, and Paypal"
+        "Bye! Had a wonderful time chatting."
       ]
     },
     {
-      "tag": "delivery",
+      "tag": "thanks-v1",
       "patterns": [
-        "How long does delivery take?",
-        "How long does shipping take?",
-        "When do I get my delivery?"
+        "Thanks", 
+        "Thank you", 
+        "That's helpful", 
+        "Appreciate it",
+        "Grateful",
+        "Gratitude",
+        "Kind of you",
+        "Much appreciated",
+        "Means the world",
+        "Great",
+        "Perfect",
+        "nice"
+      ],
+      "responses": ["Happy to help!", "Any time!", "My pleasure!"]
+    },
+    {
+      "tag": "greeting-v1-q1",
+      "patterns": [
+        "Who is Aditya?",
+        "Describe Aditya?",
+        "Introduce Aditya?",
+        "I want to know about you?",
+        "Who are you?"
       ],
       "responses": [
-        "Delivery takes 2-4 days",
-        "Shipping takes 2-4 days"
+        "I'm an A-level graduate with a passion for Earth Sciences, Computer Science, and Philosophy. #VK18 #runner #greenpanther #techie #hodophile"
+      ]
+    },
+    {
+      "tag": "greeting-v1-q2",
+      "patterns": [
+        "favourite movie"
+      ],
+      "responses": [
+        "Bollywood movie: 3 Idiots :-) Yours?"
+      ]
+    },
+    {
+      "tag": "greeting-v1-q3",
+      "patterns": [
+        "favourite book"
+      ],
+      "responses": [
+        "Harry Potter and the Deathly Hallows :-) Yours?"
+      ]
+    },
+    {
+      "tag": "greeting-v1-q4",
+      "patterns": [
+        "favourite food"
+      ],
+      "responses": [
+        "Manipuri food cuisine :-) Yours?"
+      ]
+    },
+    {
+      "tag": "greeting-v1-q5",
+      "patterns": [
+        "favourite game"
+      ],
+      "responses": [
+        "Cricket :-) Yours?"
+      ]
+    },
+    {
+      "tag": "greeting-v1-q6",
+      "patterns": [
+        "favourite place visited"
+      ],
+      "responses": [
+        "Pokhara, Nepal. I want to visit Venice one day :-) Yours?"
+      ]
+    },
+    {
+      "tag": "greeting-v1-q1-q1",
+      "patterns": [
+        "Aditya graduate",
+        "recent school",
+        "Aditya study"
+      ],
+      "responses": [
+        "St. Xaviers College of Loyola Campus, Nepal (2018-2020)."
+      ]
+    },
+    {
+      "tag": "greeting-v1-q1-q2",
+      "patterns": [
+        "A-level subjects"
+      ],
+      "responses": [
+        "Physics, Mathematics, Chemistry, Computer Science, Further Mathematics"
+      ]
+    },
+    {
+      "tag": "greeting-v1-q1-q3",
+      "patterns": [
+        "Earth Sciences",
+        "Computer Science",
+        "Mathematics",
+        "Aditya's educational passion"
+      ],
+      "responses": [
+        "Actually, my country, Nepal, is geologically vulnerable to earthquakes. Therefore, I want to be capable of framing geological events through research, mathematical modeling, computer analysis, and simulation. I want to build smart and accurate earthquake prediction systems one day."
+      ]
+    },
+    {
+      "tag": "greeting-v1-q1-q4",
+      "patterns": [
+        "Philosophy"
+      ],
+      "responses": [
+        "Actually, I want to understand myself better through theoritical wisdom. Went bouncer? Very simply, I want to frame my ideas and thoughts in an impactful way."
+      ]
+    },
+    {
+      "tag": "greeting-v1-q1-q5",
+      "patterns": [
+        "VK18",
+        "Virat Kohli"
+      ],
+      "responses": [
+        "Yes, the Indian cricketer. I love cricket and Virat's attitude and bold personality inspires me a lot."
+      ]
+    },
+    {
+      "tag": "greeting-v1-q1-q6",
+      "patterns": [
+        "Marathon runner?",
+        "Running"
+      ],
+      "responses": [
+        "Hmm...I love long distance running. I have run many half and mini marathons."
+      ]
+    },
+    {
+      "tag": "greeting-v1-q1-q7",
+      "patterns": [
+        "Nature lover",
+        "Environment activist",
+        "Green panther",
+        "Environmental advocacy"
+      ],
+      "responses": [
+        "Hmm...I mean the mother nature. I want people to atleast feel responsible for saving our mother."
+      ]
+    },
+    {
+      "tag": "greeting-v1-q1-q8",
+      "patterns": [
+        "Travel lover",
+        "Traveler",
+        "Hodophile"
+      ],
+      "responses": [
+        "Hmm...travelling is on of my biggest passions. I want to travel the whole world one day."
+      ]
+    },
+    {
+      "tag": "greeting-v1-q1-q9",
+      "patterns": [
+        "Technology lover",
+        "Coder",
+        "Programmer",
+        "Web developer",
+        "Techie"
+      ],
+      "responses": [
+        "Hmm...I love coding. I am a beginner in Machine learning and Web development field."
+      ]
+    },
+    
+    {
+      "tag": "greeting-v1-q1-q2-q1",
+      "patterns": [
+        "A-level grades"
+      ],
+      "responses": [
+        "Mathematics (A*), Physics (A*), Computer Science (A*), Chemistry (A), Further Mathematics (A), English (B)"
       ]
     },
     {
       "tag": "funny",
       "patterns": [
+        "joke",
         "Tell me a joke!",
         "Tell me something funny!",
         "Do you know a joke?"

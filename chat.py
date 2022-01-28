@@ -27,6 +27,7 @@ model.eval()
 
 bot_name = "Sam"
 
+
 def get_response(msg):
     sentence = tokenize(msg)
     X = bag_of_words(sentence, all_words)
@@ -44,7 +45,7 @@ def get_response(msg):
         for intent in intents['intents']:
             if tag == intent["tag"]:
                 return random.choice(intent['responses'])
-    
+
     return "I do not understand..."
 
 
@@ -58,4 +59,3 @@ if __name__ == "__main__":
 
         resp = get_response(sentence)
         print(resp)
-
