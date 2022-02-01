@@ -65,18 +65,29 @@
         "Means the world",
         "Great",
         "Perfect",
-        "nice"
+        "Nice"
       ],
       "responses": ["Happy to help!", "Any time!", "My pleasure!"]
     },
     {
       "tag": "greeting-v1-q1",
       "patterns": [
-        "Who is Aditya?",
-        "Describe Aditya?",
-        "Introduce Aditya?",
-        "I want to know about you?",
-        "Who are you?"
+        "Who is Aditya",
+        "Who is he",
+        "Describe Aditya",
+        "Describe him",
+        "Describe about Aditya",
+        "Describe about him",
+        "Introduce Aditya",
+        "Introduce him",
+        "Introduce about Aditya",
+        "Introduce about him",
+        "I want to know about Aditya",
+        "I want to know about him",
+        "I want to know Aditya",
+        "I want to know him",
+        "Who is Aditya",
+        "Who is he"
       ],
       "responses": [
         "I'm an A-level graduate with a passion for Earth Sciences, Computer Science, and Philosophy. #VK18 #runner #greenpanther #techie #hodophile"
@@ -125,6 +136,72 @@
       ],
       "responses": [
         "Pokhara, Nepal. I want to visit Venice one day :-) Yours?"
+      ]
+    },
+    {
+      "tag": "greeting-v1-q7",
+      "patterns": [
+        "What should I call you",
+        "What is your name",
+        "What's your name",
+        "Whats your name",
+        "What can I call you",
+        "Who are you"
+      ],
+      "responses": [
+        "You can call me ChatAK."
+      ]
+    },
+    {
+      "tag": "greeting-v1-q8",
+      "patterns": [
+        "Can I ask",
+        "Can I send",
+        "Will you reply",
+        "Will you message",
+        "I want to ask",
+        "I had a query",
+        "Can I put a query",
+        "I will send a question",
+        "I'll send a question",
+        "I will send you a question",
+        "I'll send you a question",
+        "I will send you questions",
+        "I'll send you questions",
+        "I'll send questions",
+        "I will send questions",
+        "I will ask",
+        "I'll ask"
+      ],
+      "responses": [
+        "Surely. Feel free!"
+      ]
+    },
+    {
+      "tag": "greeting-v1-q9",
+      "patterns": [
+        "What can you do",
+        "What do you do",
+        "What's your purpose",
+        "Whats your purpose",
+        "What is your purpose",
+        "Whats your use",
+        "What's your use",
+        "What is your use",
+        "What are you used for"
+      ],
+      "responses": [
+        "I know many things about Aditya's personal life. So you use me as an assistant to question anything about him. And yes, I can also tell you jokes."
+      ]
+    },
+    {
+      "tag": "greeting-v1-q10",
+      "patterns": [
+        "Why do you exist",
+        "Why the hell do you exist"
+      ],
+      "responses": [
+        "I have never thought. I love to take it easy :-)"
       ]
     },
     {
