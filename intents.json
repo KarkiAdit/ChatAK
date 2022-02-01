@@ -71,7 +71,7 @@
       "responses": ["Happy to help!", "Any time!", "My pleasure!"]
     },
     {
-      "tag": "greeting-v1-q1",
+      "tag": "greeting-v1-introQuestion",
       "patterns": [
         "Who is Aditya",
         "Who is he",
@@ -88,39 +88,34 @@
         "I want to know Aditya",
         "I want to know him",
         "Who is Aditya",
-        "Who is he"
+        "Who is he",
+        "introduce Aditya for me"
       ],
       "responses": [
         "Aditya is an A-level graduate with a passion for Earth Sciences, Computer Science, and Philosophy. #VK18 #runner #greenpanther #techie #hodophile"
       ]
     },
     {
-      "tag": "greeting-v1-q2",
+      "tag": "greeting-v1-favMovie",
       "patterns": [
-        "Favourite movie",
-        "What is your favourite movie",
-        "What's your favourite movie",
+        "favourite movie",
         "What is his favourite movie",
         "What's his favourite movie",
         "What is Aditya's favourite movie",
         "What's Aditya's favourite movie",
-        "Favourite film",
-        "What is your favourite film",
-        "What's your favourite film",
+        "favourite film",
         "What is his favourite film",
         "What's his favourite film",
         "What is Aditya's favourite film",
         "What's Aditya's favourite film",
-        "Best movie",
-        "What is your best movie",
-        "What's your best movie",
+        "favorite movie",
+        "favorite film",
+        "best movie",
         "What is his best movie",
         "What's his best movie",
         "What is Aditya's best movie",
         "What's Aditya's best movie",
-        "Best film",
-        "What is your best film",
-        "What's your best film",
+        "best film",
         "What is his best film",
         "What's his best film",
         "What is Aditya's best film",
@@ -131,18 +126,15 @@
       ]
     },
     {
-      "tag": "greeting-v1-q3",
+      "tag": "greeting-v1-favBook",
       "patterns": [
-        "Favourite book",
-        "What is your favourite book",
-        "What's your favourite book",
+        "favourite book",
         "What is his favourite book",
         "What's his favourite book",
         "What is Aditya's favourite book",
         "What's Aditya's favourite book",
-        "Best book",
-        "What is your best book",
-        "What's your best book",
+        "favorite book",
+        "best book",
         "What is his best book",
         "What's his best book",
         "What is Aditya's best book",
@@ -153,18 +145,15 @@
       ]
     },
     {
-      "tag": "greeting-v1-q4",
+      "tag": "greeting-v1-favFood",
       "patterns": [
-        "Favourite food",
-        "What is your favourite food",
-        "What's your favourite food",
+        "favourite food",
         "What is his favourite food",
         "What's his favourite food",
         "What is Aditya's favourite food",
         "What's Aditya's favourite food",
-        "Best food",
-        "What is your best food",
-        "What's your best food",
+        "favorite food",
+        "best food",
         "What is his best food",
         "What's his best food",
         "What is Aditya's best food",
@@ -175,32 +164,26 @@
       ]
     },
     {
-      "tag": "greeting-v1-q5",
+      "tag": "greeting-v1-favGame",
       "patterns": [
-        "Favourite game",
-        "What is your favourite game",
-        "What's your favourite game",
+        "favourite game",
         "What is his favourite game",
         "What's his favourite game",
         "What is Aditya's favourite game",
         "What's Aditya's favourite game",
-        "Best game",
-        "What is your best game",
-        "What's your best game",
+        "favorite game",
+        "best game",
         "What is his best game",
         "What's his best game",
         "What is Aditya's best game",
         "What's Aditya's best game",
-        "Favourite sport",
-        "What is your favourite sport",
-        "What's your favourite sport",
+        "favourite sport",
         "What is his favourite sport",
         "What's his favourite sport",
         "What is Aditya's favourite sport",
         "What's Aditya's favourite sport",
-        "Best sport",
-        "What is your best sport",
-        "What's your best sport",
+        "favorite sport",
+        "best sport",
         "What is his best sport",
         "What's his best sport",
         "What is Aditya's best sport",
@@ -211,20 +194,19 @@
       ]
     },
     {
-      "tag": "greeting-v1-q6",
+      "tag": "greeting-v1-favPlace",
       "patterns": [
-        "Favourite place",
-        "Favourite visit location",
-        "Favourite destination",
-        "What is your favourite place",
-        "What's your favourite place",
+        "favourite place",
+        "favourite visit location",
+        "favourite destination",
+        "favorite place",
+        "favorite visit location",
+        "favorite destination",
         "What is his favourite place",
         "What's his favourite place",
         "What is Aditya's favourite place",
         "What's Aditya's favourite place",
-        "Best place",
-        "What is your best place",
-        "What's your best place",
+        "best place",
         "What is his best place",
         "What's his best place",
         "What is Aditya's best place",
@@ -235,7 +217,7 @@
       ]
     },
     {
-      "tag": "greeting-v1-q7",
+      "tag": "greeting-v1-chatBot-q1",
       "patterns": [
         "What should I call you",
         "What is your name",
@@ -249,7 +231,7 @@
       ]
     },
     {
-      "tag": "greeting-v1-q8",
+      "tag": "greeting-v1-chatBot-q2",
       "patterns": [
         "Can I ask",
         "Can I send",
@@ -274,7 +256,7 @@
       ]
     },
     {
-      "tag": "greeting-v1-q9",
+      "tag": "greeting-v1-chatBot-qn3",
       "patterns": [
         "What can you do",
         "What do you do",
@@ -295,7 +277,7 @@
       ]
     },
     {
-      "tag": "greeting-v1-q10",
+      "tag": "greeting-v1-chatBot-q4",
       "patterns": [
         "Why do you exist",
         "Why the hell do you exist"
@@ -305,28 +287,113 @@
       ]
     },
     {
-      "tag": "greeting-v1-q11",
+      "tag": "greeting-v1-chillResponse",
       "patterns": [
         "Hehe",
         "Haha",
         "Savage",
         "Oho",
         "Oley",
-        "Work hard"
+        "Work hard",
+        "Crazy"
       ],
       "responses": [
         "Hehe :-)"
       ]
     },
     {
-      "tag": "greeting-v1-q1-q1",
+      "tag": "greeting-v1-address-q1",
+      "patterns": [
+        "Where does Aditya live",
+        "Where does he live",
+        "What is Aditya's address",
+        "What is his address",
+        "What is Aditya's temporary address ",
+        "What is his temporary address",
+        "What is his mailing address",
+        "What is Aditya's mailing address",
+        "Where is he living",
+        "Where is Aditya living",
+        "temporary address"
+      ],
+      "responses": [
+        "Aditya lives in Anamngar 29, Kathmandu, Nepal."
+      ]
+    },
+    {
+      "tag": "greeting-v1-address-q2",
+      "patterns": [
+        "What is his permanent address",
+        "What is Aditya's permanent address",
+        "Where is Aditya originally from",
+        "Where is he originally from",
+        "permanent address",
+        "address"
+      ],
+      "responses": [
+        "Aditya is originally from Kamal 5, Jhapa, Nepal."
+      ]
+    },
+    {
+      "tag": "greeting-v1-country-q1",
+      "patterns": [
+        "What is Aditya's nationality",
+        "What is his nationality",
+        "Which country's citizenship does he hold",
+        "Which country's citizenship does Aditya hold",
+        "He is citizen of which country",
+        "Aditya is citizen of which country",
+        "country",
+        "citizenship",
+        "nationality"
+      ],
+      "responses": [
+        "Aditya was born in Nepal and he has a Nepalese citizenship."
+      ]
+    },
+    {
+      "tag": "greeting-v1-demography-q1",
+      "patterns": [
+        "What is Aditya's age",
+        "What is his age",
+        "How old is he",
+        "How old is Aditya",
+        "age"
+      ],
+      "responses": [
+        "Aditya is 20 years old."
+      ]
+    },
+    {
+      "tag": "greeting-v1-demography-q2",
+      "patterns": [
+        "What is Aditya's Date of Birth",
+        "What is his Date of Birth",
+        "What is his DOB",
+        "What is Aditya's DOB",
+        "When is his birthday",
+        "When is Aditya's birthday",
+        "year of birth",
+        "year born",
+        "date of birth",
+        "DOB",
+        "birthday"
+      ],
+      "responses": [
+        "October 19, 2001"
+      ]
+    },
+    {
+      "tag": "greeting-v1-school",
       "patterns": [
         "Where did Aditya graduate",
+        "Where did he graduate",
         "What's his recent school",
-        "What is his recent school",
+        "What is Aditya's recent school",
         "What's Aditya's recent school",
-        "Whats Aditya's recent school",
+        "Whats is his recent school",
         "Where did Aditya study",
+        "Where did he study",
         "recent school"
       ],
       "responses": [
@@ -334,186 +401,609 @@
       ]
     },
     {
-      "tag": "greeting-v1-q1-q2",
+      "tag": "greeting-v1-subjects",
       "patterns": [
         "What subjects did Aditya study",
-        "What are Aditya's A-level subjects ",
+        "What subjects did he study",
+        "What are Aditya's A-level subjects",
+        "What are his A-level subjects",
         "What did Aditya study",
         "What did he study",
-        "A-level subjects",
-        "Alevel subjects"
+        "What is Aditya's qualification",
+        "What is his qualitification",
+        "a-level subjects",
+        "alevel subjects",
+        "qualification"
       ],
       "responses": [
-        "Physics, Mathematics, Chemistry, Computer Science, Further Mathematics"
+        "A-level in Physics, Mathematics, Chemistry, Computer Science, Further Mathematics"
       ]
     },
     {
-      "tag": "greeting-v1-q1-q3",
+      "tag": "greeting-v1-contact-q1",
       "patterns": [
-        "Earth Sciences",
-        "Why Earth Sciences",
+        "How to reach out to Aditya",
+        "How to connect with Aditya",
+        "How to contact Aditya",
+        "How to reach out to him",
+        "How to connect with him",
+        "How to contact him",
+        "How do I contact",
+        "How do I connect",
+        "How do I reach out",
+        "contact"
+      ],
+      "responses": [
+        "You can reach out him at his FB: https://www.facebook.com/asAdityakarki. He will reply you ASAP."
+      ]
+    },
+    {
+      "tag": "greeting-v1-contact-q2",
+      "patterns": [
+        "What is Aditya's email",
+        "What is his email",
+        "email",
+        "personal email"
+      ],
+      "responses": [
+        "adityakarki728@gmail.com"
+      ]
+    },
+    {
+      "tag": "greeting-v1-contact-fb",
+      "patterns": [
+        "Is Aditya on Facebook",
+        "Is Aditya on Fb",
+        "Is Aditya on messenger",
+        "Does Aditya have messenger",
+        "Is he on Facebook",
+        "Is he on Fb",
+        "Is he on messenger",
+        "Does he have messenger",
+        "facebook",
+        "messenger"
+      ],
+      "responses": [
+        "Yes, visit this profile: https://www.facebook.com/asAdityakarki"
+      ]
+    },
+    {
+      "tag": "greeting-v1-contact-twitter",
+      "patterns": [
+        "Is Aditya on Twitter",
+        "Is he on Twitter",
+        "twitter"
+      ],
+      "responses": [
+        "No. Hehe!"
+      ]
+    },
+    {
+      "tag": "greeting-v1-contact-ig",
+      "patterns": [
+        "Is Aditya on Instagram",
+        "Is Aditya on Ig",
+        "Is he on Instagram",
+        "Is he on Ig",
+        "instagram"
+      ],
+      "responses": [
+        "Yes, visit this profile: https://www.instagram.com/aditkarki.ak/"
+      ]
+    },
+    {
+      "tag": "greeting-v1-contact-linkedin",
+      "patterns": [
+        "Is Aditya on LinkedIn",
+        "Is he on LinkedIn",
+        "linkedin"
+      ],
+      "responses": [
+        "Yes, visit this profile: https://www.linkedin.com/in/aditya-karki-2977821ab/"
+      ]
+    },
+    {
+      "tag": "greeting-v1-contact-youtubeCh",
+      "patterns": [
+        "Does Aditya have a Youtube Channel",
+        "Does he have a Youtube Channel",
+        "youtube channel"
+      ],
+      "responses": [
+        "No. Hehe!"
+      ]
+    },
+    {
+      "tag": "greeting-v1-family-q1",
+      "patterns": [
+        "How many members are there in his family",
+        "How many members are there in Aditya's family",
+        "number of members in his family",
+        "number of members in Aditya's family",
+        "family"
+      ],
+      "responses": [
+        "Four members -:) He, his sister, and his parents."
+      ]
+    },
+    {
+      "tag": "greeting-v1-family-q2",
+      "patterns": [
+        "What does his father do",
+        "What does Aditya's father do",
+        "What is his father's occupation",
+        "Who is Aditya's father",
+        "Who is his father",
+        "What is Aditya's father's occupation",
+        "father's occupation",
+        "dad's occupation",
+        "dad's job",
+        "father's job"
+      ],
+      "responses": [
+        "Aditya's dad is a secondary school teacher."
+      ]
+    },
+    {
+      "tag": "greeting-v1-family-q3",
+      "patterns": [
+        "What is his father's qualification",
+        "What is Aditya's father's qualification",
+        "father's qualification",
+        "dad's qualification"
+      ],
+      "responses": [
+        "BA in Business Studies."
+      ]
+    },
+    {
+      "tag": "greeting-v1-family-q4",
+      "patterns": [
+        "What does his mother do",
+        "What does Aditya's mother do",
+        "What is his mother's occupation",
+        "Who is Aditya's mom",
+        "Who is his mom",
+        "What is Aditya's mother's occupation",
+        "mother's occupation",
+        "mom's occupation",
+        "mother's job",
+        "mom's job"
+      ],
+      "responses": [
+        "Aditya's mom is a currently a housewife."
+      ]
+    },
+    {
+      "tag": "greeting-v1-family-q5",
+      "patterns": [
+        "What is his mother's qualification",
+        "What is Aditya's mother's qualification",
+        "mother's qualification",
+        "mom's qualification"
+      ],
+      "responses": [
+        "Aditya's mom has completed primary school."
+      ]
+    },
+    {
+      "tag": "greeting-v1-family-q6",
+      "patterns": [
+        "What is his mother's name",
+        "What is Aditya's mother's name",
+        "mother's name",
+        "mom's name"
+      ],
+      "responses": [
+        "Gita Karki."
+      ]
+    },
+    {
+      "tag": "greeting-v1-family-q7",
+      "patterns": [
+        "What is his father's name",
+        "What is Aditya's father's name",
+        "father's name",
+        "dad's name"
+      ],
+      "responses": [
+        "Narayan Kumar Karki."
+      ]
+    },
+    {
+      "tag": "greeting-v1-family-q8",
+      "patterns": [
+        "Does he have a sibling",
+        "Does Aditya have a sibling",
+        "sibling",
+        "sister",
+        "brother"
+      ],
+      "responses": [
+        "He has only one sibling: his sister. She is two years bigger than Aditya."
+      ]
+    },
+    {
+      "tag": "greeting-v1-family-q9",
+      "patterns": [
+        "What is his sibling's name",
+        "What is Aditya's sibling's name",
+        "sibling's name",
+        "sister's name"
+      ],
+      "responses": [
+        "Atisha Karki."
+      ]
+    },
+    {
+      "tag": "greeting-v1-family-q10",
+      "patterns": [
+        "What does his sister do",
+        "What does Aditya's sister do",
+        "What is his sister's occupation",
+        "What is Aditya's sister's occupation",
+        "Who is his sister",
+        "Who is Aditya's sister",
+        "What is his sister's qualification",
+        "What is Aditya's sister's qualification",
+        "sister's qualification",
+        "sibling's qualification",
+        "sister's occupation",
+        "sibling's occupation",
+        "sibling's job",
+        "siter's job"
+      ],
+      "responses": [
+        "Aditya's sister is in junior year of her college."
+      ]
+    },
+    {
+      "tag": "greeting-v1-educationalPassion",
+      "patterns": [
+        "what is earth Sciences",
+        "why Earth Sciences",
         "What do you mean by saying Earth Sciences",
         "What does Aditya love about Earth Sciences",
         "How is Aditya passionate about Earth Science",
-        "Computer Science",
-        "Why Computer Science",
+        "What does he love about Earth Sciences",
+        "How is he passionate about Earth Science",
+        "what is computer Science",
+        "why Computer Science",
         "What do you mean by saying Computer Science",
         "What does Aditya love about Computer Science",
         "How is Aditya passionate about Computer Science",
-        "Mathematics",
-        "Why Mathematics",
+        "What does he love about Computer Science",
+        "How is he passionate about Computer Science",
+        "what is mathematics",
+        "why Mathematics",
         "What do you mean by saying Mathematics",
         "What does Aditya love about Mathematics",
         "How is Aditya passionate about Mathematics",
-        "Aditya's educational passion"
+        "What does he love about Mathematics",
+        "How is he passionate about Mathematics",
+        "Aditya's educational passion",
+        "his educational passion"
       ],
       "responses": [
         "Actually, Nepal, is geologically vulnerable to earthquakes. Therefore, Aditya wants to be capable of framing geological events through research, mathematical modeling, computer analysis, and simulation. He wants to build smart and accurate earthquake prediction systems one day."
       ]
     },
     {
-      "tag": "greeting-v1-q1-q4",
+      "tag": "greeting-v1-philosophy",
       "patterns": [
-        "Philosophy",
-        "Why Philosophy",
+        "what is philosophy",
+        "why Philosophy",
         "What do you mean by saying Philosophy",
         "What does Aditya love about Philosophy",
-        "How is Aditya passionate about Philosophy"
+        "How is Aditya passionate about Philosophy",
+        "What does he love about Philosophy",
+        "How is he passionate about Philosophy"
       ],
       "responses": [
-        "Actually, Adtiya wants to understand himself better through theoritical wisdom. Went bouncer? Very simply, he wants to frame his ideas and thoughts in an impactful way."
+        "Actually, Aditya wants to understand himself better through theoritical wisdom. Went bouncer? Very simply, he wants to frame his ideas and thoughts in an impactful way."
       ]
     },
     {
-      "tag": "greeting-v1-q1-q5",
+      "tag": "greeting-v1-vk18",
       "patterns": [
-        "VK18",
-        "Why VK18",
+        "what is VK18",
+        "why VK18",
         "What do you mean by saying VK18",
         "What does Aditya love about VK18",
         "How is Aditya passionate about VK18",
-        "Virat Kohli",
-        "Why Virat Kohli",
+        "What does he love about VK18",
+        "How is he passionate about VK18",
+        "virat Kohli",
+        "why Virat Kohli",
         "What do you mean by saying Virat Kohli",
         "What does Aditya love about Virat Kohli",
-        "How is Aditya passionate about Virat Kohli"
+        "How is Aditya passionate about Virat Kohli",
+        "What does he love about Virat Kohli",
+        "How is he passionate about Virat Kohli"
       ],
       "responses": [
-        "I mean the Indian cricketer. Aditya loves Virat's attitude and his bold personality inspires him a lot."
+        "Indian cricketer, Virat Kohli is famous as VK18. Aditya loves Virat's attitude and his bold personality inspires him a lot."
       ]
     },
     {
-      "tag": "greeting-v1-q1-q6",
+      "tag": "greeting-v1-running",
       "patterns": [
-        "Marathon runner",
-        "Why Marathon runner",
+        "marathon runner",
+        "marathon running",
+        "why Marathon runner",
         "What do you mean by saying Marathon runner",
         "What does Aditya love about Marathon runner",
         "How is Aditya passionate about Marathon runner",
-        "Running",
-        "Why running",
+        "What does he love about Marathon runner",
+        "How is he passionate about Marathon runner",
+        "what is runner",
+        "running",
+        "why running",
         "What do you mean by saying running",
         "What does Aditya love about running",
-        "How is Aditya passionate about running"
+        "How is Aditya passionate about running",
+        "What does he love about running",
+        "How is he passionate about running"
       ],
       "responses": [
-        "I mean Aditya loves long distance running very much. He has run many half and mini marathons."
+        "Aditya loves long distance running very much. He has run many half and mini marathons."
       ]
     },
     {
-      "tag": "greeting-v1-q1-q7",
+      "tag": "greeting-v1-natureLover",
       "patterns": [
-        "Nature lover",
-        "Why nature lover",
+        "nature lover",
+        "why nature lover",
         "What do you mean by saying nature lover",
-        "Environment activist",
-        "Why environment activist",
+        "environment activist",
+        "why environment activist",
         "What do you mean by saying environment activist",
-        "Green panther",
-        "Why green panther",
+        "what is green panther",
+        "what is greenpanther",
+        "why green panther",
         "What do you mean by saying green panther",
-        "Environmental advocacy",
+        "environmental advocacy",
         "Why environmental advocacy",
         "What do you mean by saying environmental advocacy",
         "What does Aditya love about environmental advocacy",
-        "How is Aditya passionate about environmental advocacy"
+        "How is Aditya passionate about environmental advocacy",
+        "What does he love about environmental advocacy",
+        "How is he passionate about environmental advocacy"
       ],
       "responses": [
-        "I mean the mother nature. Aditya wants people to atleast feel responsible for saving our mother."
+        "Mother nature means the world to Aditya. Aditya wants people to atleast feel responsible for saving our mother."
       ]
     },
     {
-      "tag": "greeting-v1-q1-q8",
+      "tag": "greeting-v1-hodophile",
       "patterns": [
-        "Travel lover",
-        "Why travel lover",
-        "What do you mean by saying travel lover",
-        "Traveler",
-        "Why traveler",
+        "travel lover",
+        "why travel lover",
+        "what do you mean by saying travel lover",
+        "traveler",
+        "why traveler",
         "What do you mean by saying travel lover",
         "What does Aditya love about traveling",
         "How is Aditya passionate about traveling",
-        "Hodophile",
-        "Why Hodophile",
+        "What does he love about traveling",
+        "How is he passionate about traveling",
+        "what is hodophile",
+        "why Hodophile",
         "What do you mean by saying Hodophile",
-        "What do you mean by savying traveling"
+        "What do you mean by saying traveling"
       ],
       "responses": [
-        "I mean travelling is on of Aditya's biggest passions. He wants to travel the whole world one day."
+        "One of Aditya's biggest passions is travelling. He wants to travel the whole world one day."
       ]
     },
     {
-      "tag": "greeting-v1-q1-q9",
+      "tag": "greeting-v1-techie",
       "patterns": [
-        "Technology lover",
-        "Why technology lover",
+        "technology lover",
+        "why technology lover",
         "What do you mean by saying technology lover",
         "What does Aditya love about technology",
         "How is Aditya passionate about technology",
-        "Coder",
-        "Why coder",
+        "What does he love about technology",
+        "How is he passionate about technology",
+        "coder",
+        "why coder",
         "What do you mean by saying coder",
         "What does Aditya love about coding",
         "How is Aditya passionate about coding",
-        "Programmer",
-        "Why programmer",
+        "What does he love about coding",
+        "How is he passionate about coding",
+        "programmer",
+        "why programmer",
         "What do you mean by saying programmer",
         "What does Aditya love about programming",
         "How is Aditya passionate about programming",
-        "Techie",
-        "Why techie",
+        "What does he love about programming",
+        "How is he passionate about programming",
+        "what is techie",
+        "why techie",
         "What do you mean by saying techie",
         "What does Aditya love about techie",
-        "How is Aditya passionate about techie"
+        "How is Aditya passionate about techie",
+        "What does he love about techie",
+        "How is he passionate about techie"
       ],
       "responses": [
-        "I mean Aditya loves coding. He is a beginner in Machine learning and Web development field."
+        "Aditya academic passion is coding. He is a beginner in Machine learning and Web development field, and also has worked on many tech projects."
       ]
     },
-    
     {
-      "tag": "greeting-v1-q1-q2-q1",
+      "tag": "greeting-v1-grades",
       "patterns": [
-        "A-level grades",
+        "a-level grades",
+        "alevel grades",
         "What are Aditya's alevel grades",
-        "What are Aditya's A-level grades",
-        "What are Aditya's grades"
+        "What are Aditya's grades",
+        "What are his grades",
+        "What are his alevel grades"
       ],
       "responses": [
         "Mathematics (A*), Physics (A*), Computer Science (A*), Chemistry (A), Further Mathematics (A), English (B)"
       ]
     },
     {
-      "tag": "funny",
+      "tag": "greeting-v1-hobbies",
       "patterns": [
-        "joke",
-        "Tell me a joke!",
-        "Tell me something funny!",
-        "Do you know a joke?"
+        "What is Aditya's hobby",
+        "What is Aditya's passions",
+        "What does Aditya love doing",
+        "What does Aditya like",
+        "What does Aditya love",
+        "What is his hobby",
+        "What is his passions",
+        "What does he love doing",
+        "What does he like",
+        "What does he love",
+        "hobby",
+        "passion",
+        "hobbies",
+        "passions"
       ],
       "responses": [
-        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
-        "What did the buffalo say when his son left for college? Bison."
+        "Aditya loves coding, running, and educational and environmental advocacy the most. He likes playing cricket, vlogging, travelling, and spending time with family in free time."
+      ]
+    },
+    {
+      "tag": "greeting-v1-dislikes",
+      "patterns": [
+        "What does Aditya not like doing",
+        "What does Aditya dislike",
+        "What does he hate doing",
+        "What does Aditya hate doing",
+        "What does he dislike",
+        "What does he not like doing",
+        "dislikes",
+        "hates",
+        "hate",
+        "dislike"
+      ],
+      "responses": [
+        "Aditya dislikes comparison. He believes in developing individuality challenging himself with the previous day's ownself."
+      ]
+    },
+    {
+      "tag": "greeting-v1-inspiration",
+      "patterns": [
+        "What is Aditya's biggest inspiration",
+        "What is his insipiration",
+        "inspiration"
+      ],
+      "responses": [
+        "Aditya biggest inspiration are his parents. They work 24/7 to provide a quality life to both his sister and him. He is very determined to studying and is audacious for taking intellectual risks in his life."
+      ]
+    },
+    {
+      "tag": "greeting-v1-untoldSecret",
+      "patterns": [
+        "secret",
+        "untold story",
+        "unique",
+        "Tell unique story about Aditya",
+        "Tell an untold story about Aditya",
+        "Tell a secret from his life",
+        "Tell unique story about him",
+        "Tell an untold story about him",
+        "Tell a secret from Aditya's life"
+      ],
+      "responses": [
+        "Aditya doesn't prefer chatting. Hehe -:) He likes physical conversation over online texting."
+      ]
+    },
+    {
+      "tag": "greeting-v1-careerChoice",
+      "patterns": [
+        "What is Aditya's ambition",
+        "What is Aditya's future job",
+        "What is Aditya's life goal",
+        "What is Aditya's career choice",
+        "What does Aditya looks to be",
+        "What is Aditya's future profession",
+        "What is his ambition",
+        "What is his future job",
+        "What is his life goal",
+        "What is his career choice",
+        "What does he looks to be",
+        "What does Aditya aim to be",
+        "What does he aim to be",
+        "What is his future profession",
+        "career choice",
+        "future profession",
+        "ambition",
+        "career goal",
+        "aim"
+      ],
+      "responses": [
+        "Aditya aims to be a Data Scientist and build smart earthquake prediction systems."
+      ]
+    },
+    {
+      "tag": "greeting-v1-weaknesses",
+      "patterns": [
+        "What are Aditya's weaknesses",
+        "What is Aditya weak at",
+        "What is his biggest weakness",
+        "What does Aditya lag in",
+        "What is his weaknesses",
+        "What is he weak at",
+        "What is Aditya's biggest weakness",
+        "What does he lag in",
+        "weaknesses",
+        "weakness",
+        "shortcommings",
+        "limitation",
+        "shorcomming",
+        "limitations",
+        "lag in",
+        "lag at"
+      ],
+      "responses": [
+        "Aditya biggest weakness is his emotional thinking. Though he is rational at times, in most instances he takes decisions emotionally. He has never failed in his career by these decisions but has been cheated by people many times in his personal life."
+      ]
+    },
+    {
+      "tag": "funny-jokes-v1",
+      "patterns": [
+        "joke",
+        "jokes",
+        "Tell me a joke",
+        "Tell me something funny",
+        "Do you know a joke",
+        "What joke do you know",
+        "I want to listen a joke"
+      ],
+      "responses": [
+        "Have you heard the one about the man who kept shouting broccoli and cauliflower? He thought he might have florets.",
+        "A jump-lead walks into a bar. The barman says: I will serve you, but do not start anything",
+        "A horse goes into a bar. The barman says: Why the long face?",
+        "I recently replaced our bed with a trampoline. My wife hit the roof when she found out!",
+        "Two fish are in a tank. One turns to the other and asks: How do I drive this thing?",
+        "I am not being condescending. I am too busy thinking about far more important things you would not understand."
+      ]
+    },
+    {
+      "tag": "funny-jokes-v2",
+      "patterns": [
+        "Didn't find it funny",
+        "Tell me other jokes",
+        "Tell something more funny",
+        "was not funny",
+        "wasn't funny",
+        "other jokes",
+        "more funny",
+        "anything else"
+      ],
+      "responses": [
+        "My wife asked me why I was speaking so softly at home. I told her I was afraid Mark Zuckerberg was listening! She laughed. I laughed. Alexa laughed. Siri laughed.",
+        "Have you ever got half way through eating a horse and thought, I am not as hungry as I thought I was?",
+        "Spent the last three days alone trying to learn escapology. I need to get out more.",
+        "I told a friend of mine I liked Beyoncé. She said: Whatever floats your boat. I said: No, that is buoyancy…",
+        "A man walks past a fridge and thinks he can hear onions singing Bee Gee songs but on opening the fridge he discovered it was only the chives talkin",
+        "I am reading a great book about an immortal dog. I am finding it impossible to put down."
       ]
     }
   ]
