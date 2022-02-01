@@ -65,7 +65,8 @@
         "Means the world",
         "Great",
         "Perfect",
-        "Nice"
+        "Nice",
+        "Wonderful time"
       ],
       "responses": ["Happy to help!", "Any time!", "My pleasure!"]
     },
@@ -90,52 +91,147 @@
         "Who is he"
       ],
       "responses": [
-        "I'm an A-level graduate with a passion for Earth Sciences, Computer Science, and Philosophy. #VK18 #runner #greenpanther #techie #hodophile"
+        "Aditya is an A-level graduate with a passion for Earth Sciences, Computer Science, and Philosophy. #VK18 #runner #greenpanther #techie #hodophile"
       ]
     },
     {
       "tag": "greeting-v1-q2",
       "patterns": [
-        "favourite movie"
+        "Favourite movie",
+        "What is your favourite movie",
+        "What's your favourite movie",
+        "What is his favourite movie",
+        "What's his favourite movie",
+        "What is Aditya's favourite movie",
+        "What's Aditya's favourite movie",
+        "Favourite film",
+        "What is your favourite film",
+        "What's your favourite film",
+        "What is his favourite film",
+        "What's his favourite film",
+        "What is Aditya's favourite film",
+        "What's Aditya's favourite film",
+        "Best movie",
+        "What is your best movie",
+        "What's your best movie",
+        "What is his best movie",
+        "What's his best movie",
+        "What is Aditya's best movie",
+        "What's Aditya's best movie",
+        "Best film",
+        "What is your best film",
+        "What's your best film",
+        "What is his best film",
+        "What's his best film",
+        "What is Aditya's best film",
+        "What's Aditya's best film"
       ],
       "responses": [
-        "Bollywood movie: 3 Idiots :-) Yours?"
+        "Bollywood movie: 3 Idiots :-)"
       ]
     },
     {
       "tag": "greeting-v1-q3",
       "patterns": [
-        "favourite book"
+        "Favourite book",
+        "What is your favourite book",
+        "What's your favourite book",
+        "What is his favourite book",
+        "What's his favourite book",
+        "What is Aditya's favourite book",
+        "What's Aditya's favourite book",
+        "Best book",
+        "What is your best book",
+        "What's your best book",
+        "What is his best book",
+        "What's his best book",
+        "What is Aditya's best book",
+        "What's Aditya's best book"
       ],
       "responses": [
-        "Harry Potter and the Deathly Hallows :-) Yours?"
+        "Harry Potter and the Deathly Hallows :-)"
       ]
     },
     {
       "tag": "greeting-v1-q4",
       "patterns": [
-        "favourite food"
+        "Favourite food",
+        "What is your favourite food",
+        "What's your favourite food",
+        "What is his favourite food",
+        "What's his favourite food",
+        "What is Aditya's favourite food",
+        "What's Aditya's favourite food",
+        "Best food",
+        "What is your best food",
+        "What's your best food",
+        "What is his best food",
+        "What's his best food",
+        "What is Aditya's best food",
+        "What's Aditya's best food"
       ],
       "responses": [
-        "Manipuri food cuisine :-) Yours?"
+        "Manipuri food cuisine :-)"
       ]
     },
     {
       "tag": "greeting-v1-q5",
       "patterns": [
-        "favourite game"
+        "Favourite game",
+        "What is your favourite game",
+        "What's your favourite game",
+        "What is his favourite game",
+        "What's his favourite game",
+        "What is Aditya's favourite game",
+        "What's Aditya's favourite game",
+        "Best game",
+        "What is your best game",
+        "What's your best game",
+        "What is his best game",
+        "What's his best game",
+        "What is Aditya's best game",
+        "What's Aditya's best game",
+        "Favourite sport",
+        "What is your favourite sport",
+        "What's your favourite sport",
+        "What is his favourite sport",
+        "What's his favourite sport",
+        "What is Aditya's favourite sport",
+        "What's Aditya's favourite sport",
+        "Best sport",
+        "What is your best sport",
+        "What's your best sport",
+        "What is his best sport",
+        "What's his best sport",
+        "What is Aditya's best sport",
+        "What's Aditya's best sport"
       ],
       "responses": [
-        "Cricket :-) Yours?"
+        "Cricket and Long Distance Running :-)"
       ]
     },
     {
       "tag": "greeting-v1-q6",
       "patterns": [
-        "favourite place visited"
+        "Favourite place",
+        "Favourite visit location",
+        "Favourite destination",
+        "What is your favourite place",
+        "What's your favourite place",
+        "What is his favourite place",
+        "What's his favourite place",
+        "What is Aditya's favourite place",
+        "What's Aditya's favourite place",
+        "Best place",
+        "What is your best place",
+        "What's your best place",
+        "What is his best place",
+        "What's his best place",
+        "What is Aditya's best place",
+        "What's Aditya's best place"
       ],
       "responses": [
-        "Pokhara, Nepal. I want to visit Venice one day :-) Yours?"
+        "Pokhara, Nepal. He wants to visit Venice one day :-)"
       ]
     },
     {
@@ -188,7 +284,11 @@
         "Whats your use",
         "What's your use",
         "What is your use",
-        "What are you used for"
+        "What are you used for",
+        "Tell me about you",
+        "Tell me about yourself",
+        "Tell about yourself",
+        "Tell about you"
       ],
       "responses": [
         "I know many things about Aditya's personal life. So you use me as an assistant to question anything about him. And yes, I can also tell you jokes."
@@ -205,11 +305,29 @@
       ]
     },
     {
+      "tag": "greeting-v1-q11",
+      "patterns": [
+        "Hehe",
+        "Haha",
+        "Savage",
+        "Oho",
+        "Oley",
+        "Work hard"
+      ],
+      "responses": [
+        "Hehe :-)"
+      ]
+    },
+    {
       "tag": "greeting-v1-q1-q1",
       "patterns": [
-        "Aditya graduate",
-        "recent school",
-        "Aditya study"
+        "Where did Aditya graduate",
+        "What's his recent school",
+        "What is his recent school",
+        "What's Aditya's recent school",
+        "Whats Aditya's recent school",
+        "Where did Aditya study",
+        "recent school"
       ],
       "responses": [
         "St. Xaviers College of Loyola Campus, Nepal (2018-2020)."
@@ -218,7 +336,12 @@
     {
       "tag": "greeting-v1-q1-q2",
       "patterns": [
-        "A-level subjects"
+        "What subjects did Aditya study",
+        "What are Aditya's A-level subjects ",
+        "What did Aditya study",
+        "What did he study",
+        "A-level subjects",
+        "Alevel subjects"
       ],
       "responses": [
         "Physics, Mathematics, Chemistry, Computer Science, Further Mathematics"
@@ -228,84 +351,153 @@
       "tag": "greeting-v1-q1-q3",
       "patterns": [
         "Earth Sciences",
+        "Why Earth Sciences",
+        "What do you mean by saying Earth Sciences",
+        "What does Aditya love about Earth Sciences",
+        "How is Aditya passionate about Earth Science",
         "Computer Science",
+        "Why Computer Science",
+        "What do you mean by saying Computer Science",
+        "What does Aditya love about Computer Science",
+        "How is Aditya passionate about Computer Science",
         "Mathematics",
+        "Why Mathematics",
+        "What do you mean by saying Mathematics",
+        "What does Aditya love about Mathematics",
+        "How is Aditya passionate about Mathematics",
         "Aditya's educational passion"
       ],
       "responses": [
-        "Actually, my country, Nepal, is geologically vulnerable to earthquakes. Therefore, I want to be capable of framing geological events through research, mathematical modeling, computer analysis, and simulation. I want to build smart and accurate earthquake prediction systems one day."
+        "Actually, Nepal, is geologically vulnerable to earthquakes. Therefore, Aditya wants to be capable of framing geological events through research, mathematical modeling, computer analysis, and simulation. He wants to build smart and accurate earthquake prediction systems one day."
       ]
     },
     {
       "tag": "greeting-v1-q1-q4",
       "patterns": [
-        "Philosophy"
+        "Philosophy",
+        "Why Philosophy",
+        "What do you mean by saying Philosophy",
+        "What does Aditya love about Philosophy",
+        "How is Aditya passionate about Philosophy"
       ],
       "responses": [
-        "Actually, I want to understand myself better through theoritical wisdom. Went bouncer? Very simply, I want to frame my ideas and thoughts in an impactful way."
+        "Actually, Adtiya wants to understand himself better through theoritical wisdom. Went bouncer? Very simply, he wants to frame his ideas and thoughts in an impactful way."
       ]
     },
     {
       "tag": "greeting-v1-q1-q5",
       "patterns": [
         "VK18",
-        "Virat Kohli"
+        "Why VK18",
+        "What do you mean by saying VK18",
+        "What does Aditya love about VK18",
+        "How is Aditya passionate about VK18",
+        "Virat Kohli",
+        "Why Virat Kohli",
+        "What do you mean by saying Virat Kohli",
+        "What does Aditya love about Virat Kohli",
+        "How is Aditya passionate about Virat Kohli"
       ],
       "responses": [
-        "Yes, the Indian cricketer. I love cricket and Virat's attitude and bold personality inspires me a lot."
+        "I mean the Indian cricketer. Aditya loves Virat's attitude and his bold personality inspires him a lot."
       ]
     },
     {
       "tag": "greeting-v1-q1-q6",
       "patterns": [
-        "Marathon runner?",
-        "Running"
+        "Marathon runner",
+        "Why Marathon runner",
+        "What do you mean by saying Marathon runner",
+        "What does Aditya love about Marathon runner",
+        "How is Aditya passionate about Marathon runner",
+        "Running",
+        "Why running",
+        "What do you mean by saying running",
+        "What does Aditya love about running",
+        "How is Aditya passionate about running"
       ],
       "responses": [
-        "Hmm...I love long distance running. I have run many half and mini marathons."
+        "I mean Aditya loves long distance running very much. He has run many half and mini marathons."
       ]
     },
     {
       "tag": "greeting-v1-q1-q7",
       "patterns": [
         "Nature lover",
+        "Why nature lover",
+        "What do you mean by saying nature lover",
         "Environment activist",
+        "Why environment activist",
+        "What do you mean by saying environment activist",
         "Green panther",
-        "Environmental advocacy"
+        "Why green panther",
+        "What do you mean by saying green panther",
+        "Environmental advocacy",
+        "Why environmental advocacy",
+        "What do you mean by saying environmental advocacy",
+        "What does Aditya love about environmental advocacy",
+        "How is Aditya passionate about environmental advocacy"
       ],
       "responses": [
-        "Hmm...I mean the mother nature. I want people to atleast feel responsible for saving our mother."
+        "I mean the mother nature. Aditya wants people to atleast feel responsible for saving our mother."
       ]
     },
     {
       "tag": "greeting-v1-q1-q8",
       "patterns": [
         "Travel lover",
+        "Why travel lover",
+        "What do you mean by saying travel lover",
         "Traveler",
-        "Hodophile"
+        "Why traveler",
+        "What do you mean by saying travel lover",
+        "What does Aditya love about traveling",
+        "How is Aditya passionate about traveling",
+        "Hodophile",
+        "Why Hodophile",
+        "What do you mean by saying Hodophile",
+        "What do you mean by savying traveling"
       ],
       "responses": [
-        "Hmm...travelling is on of my biggest passions. I want to travel the whole world one day."
+        "I mean travelling is on of Aditya's biggest passions. He wants to travel the whole world one day."
       ]
     },
     {
       "tag": "greeting-v1-q1-q9",
       "patterns": [
         "Technology lover",
+        "Why technology lover",
+        "What do you mean by saying technology lover",
+        "What does Aditya love about technology",
+        "How is Aditya passionate about technology",
         "Coder",
+        "Why coder",
+        "What do you mean by saying coder",
+        "What does Aditya love about coding",
+        "How is Aditya passionate about coding",
         "Programmer",
-        "Web developer",
-        "Techie"
+        "Why programmer",
+        "What do you mean by saying programmer",
+        "What does Aditya love about programming",
+        "How is Aditya passionate about programming",
+        "Techie",
+        "Why techie",
+        "What do you mean by saying techie",
+        "What does Aditya love about techie",
+        "How is Aditya passionate about techie"
       ],
       "responses": [
-        "Hmm...I love coding. I am a beginner in Machine learning and Web development field."
+        "I mean Aditya loves coding. He is a beginner in Machine learning and Web development field."
       ]
     },
     
     {
       "tag": "greeting-v1-q1-q2-q1",
       "patterns": [
-        "A-level grades"
+        "A-level grades",
+        "What are Aditya's alevel grades",
+        "What are Aditya's A-level grades",
+        "What are Aditya's grades"
       ],
       "responses": [
         "Mathematics (A*), Physics (A*), Computer Science (A*), Chemistry (A), Further Mathematics (A), English (B)"
