@@ -213,7 +213,7 @@
         "What's Aditya's best place"
       ],
       "responses": [
-        "Pokhara, Nepal. He wants to visit Venice one day :-)"
+        "Pokhara, Nepal. He also wants to visit Venice one day :-)"
       ]
     },
     {
@@ -235,6 +235,7 @@
       "patterns": [
         "Can I ask",
         "Can I send",
+        "Can i question",
         "Will you reply",
         "Will you message",
         "I want to ask",
@@ -263,6 +264,7 @@
         "What's your purpose",
         "Whats your purpose",
         "What is your purpose",
+        "What are you built for",
         "Whats your use",
         "What's your use",
         "What is your use",
@@ -298,7 +300,7 @@
         "Crazy"
       ],
       "responses": [
-        "Hehe :-)"
+        "Hehe :-):-):-)"
       ]
     },
     {
@@ -343,9 +345,13 @@
         "Which country's citizenship does Aditya hold",
         "He is citizen of which country",
         "Aditya is citizen of which country",
+        "Is he a Nepali",
+        "Is he a Nepali citizen",
         "country",
         "citizenship",
-        "nationality"
+        "nationality",
+        "country of birth",
+        "birth country"
       ],
       "responses": [
         "Aditya was born in Nepal and he has a Nepalese citizenship."
@@ -369,6 +375,8 @@
       "patterns": [
         "What is Aditya's Date of Birth",
         "What is his Date of Birth",
+        "When was he born",
+        "Whe was Aditya born",
         "What is his DOB",
         "What is Aditya's DOB",
         "When is his birthday",
@@ -394,10 +402,26 @@
         "Whats is his recent school",
         "Where did Aditya study",
         "Where did he study",
+        "Where did he study Alevels",
+        "Where did Aditya study Alevels",
         "recent school"
       ],
       "responses": [
         "St. Xaviers College of Loyola Campus, Nepal (2018-2020)."
+      ]
+    },
+    {
+      "tag": "greeting-v1-graduation",
+      "patterns": [
+        "When did Aditya graduate",
+        "When did he graduate",
+        "graduation date of high school",
+        "graduation from high school",
+        "When did he pass out",
+        "When did Aditya pass out"
+      ],
+      "responses": [
+        "August, 2020."
       ]
     },
     {
@@ -411,6 +435,8 @@
         "What did he study",
         "What is Aditya's qualification",
         "What is his qualitification",
+        "He has Alevels in",
+        "Aditya has Alevels in",
         "a-level subjects",
         "alevel subjects",
         "qualification"
@@ -455,13 +481,17 @@
         "Is Aditya on Facebook",
         "Is Aditya on Fb",
         "Is Aditya on messenger",
-        "Does Aditya have messenger",
+        "Does Aditya have Facebook",
         "Is he on Facebook",
         "Is he on Fb",
         "Is he on messenger",
         "Does he have messenger",
         "facebook",
-        "messenger"
+        "messenger",
+        "facebook account",
+        "messenger account",
+        "facebook name",
+        "messenger name"
       ],
       "responses": [
         "Yes, visit this profile: https://www.facebook.com/asAdityakarki"
@@ -472,7 +502,8 @@
       "patterns": [
         "Is Aditya on Twitter",
         "Is he on Twitter",
-        "twitter"
+        "twitter",
+        "twitter account"
       ],
       "responses": [
         "No. Hehe!"
@@ -484,8 +515,13 @@
         "Is Aditya on Instagram",
         "Is Aditya on Ig",
         "Is he on Instagram",
+        "Does Aditya have Instagram",
+        "Does he have Instagram",
         "Is he on Ig",
-        "instagram"
+        "instagram",
+        "ig",
+        "instagram account",
+        "ig account"
       ],
       "responses": [
         "Yes, visit this profile: https://www.instagram.com/aditkarki.ak/"
@@ -495,8 +531,11 @@
       "tag": "greeting-v1-contact-linkedin",
       "patterns": [
         "Is Aditya on LinkedIn",
+        "Does he have Linkedin",
+        "Does Aditya have linkedin",
         "Is he on LinkedIn",
-        "linkedin"
+        "linkedin",
+        "linkedin account"
       ],
       "responses": [
         "Yes, visit this profile: https://www.linkedin.com/in/aditya-karki-2977821ab/"
@@ -507,7 +546,9 @@
       "patterns": [
         "Does Aditya have a Youtube Channel",
         "Does he have a Youtube Channel",
-        "youtube channel"
+        "youtube channel",
+        "Is Aditya active on Youtube channel",
+        "Is he active on Youtube channel"
       ],
       "responses": [
         "No. Hehe!"
@@ -903,7 +944,9 @@
         "secret",
         "untold story",
         "unique",
-        "Tell unique story about Aditya",
+        "something unique about Aditya",
+        "something secret about Aditya",
+        "Tell a unique story about Aditya",
         "Tell an untold story about Aditya",
         "Tell a secret from his life",
         "Tell unique story about him",
@@ -959,7 +1002,8 @@
         "shorcomming",
         "limitations",
         "lag in",
-        "lag at"
+        "lag at",
+        "weaknesses of Aditya"
       ],
       "responses": [
         "Aditya biggest weakness is his emotional thinking. Though he is rational at times, in most instances he takes decisions emotionally. He has never failed in his career by these decisions but has been cheated by people many times in his personal life."
