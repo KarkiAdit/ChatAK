@@ -4,7 +4,7 @@
 
 #### I have deployed this chatbot using Flask and JavaScript in Heroku: [See deployed app here.](https://chatak.herokuapp.com/)
 
-https://user-images.githubusercontent.com/68220732/151193740-ebddd25d-d0a7-44ab-80f3-f4f9ecd09626.mp4
+https://user-images.githubusercontent.com/68220732/152092372-37dcf4a9-9196-4780-b329-614a0063fd50.mp4
 
 ## Initial setup for running the app in your computer:
 
