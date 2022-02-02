@@ -1,8 +1,8 @@
 # ChatAK (AI powered chatbot built from scratch for personalized responses)
 
-In this project, I have hard-coded ChatAK, an AI powered chatbot that uses `deep learning and neural networks based Machine learning algorithms.` This chatbot predicts the responses using `Python's Pytorch library.` I have used personalized datasets to train it.
+#### In this project, I have hard-coded ChatAK, an AI powered chatbot that uses `deep learning and neural networks based Machine learning algorithms.` This chatbot predicts the responses using `Python's Pytorch library.` I have used personalized datasets to train it.
 
-I have deployed this chatbot using Flask and JavaScript in Heroku: [See deployed app here.](https://chatak.herokuapp.com/)
+#### I have deployed this chatbot using Flask and JavaScript in Heroku: [See deployed app here.](https://chatak.herokuapp.com/)
 
 https://user-images.githubusercontent.com/68220732/151193740-ebddd25d-d0a7-44ab-80f3-f4f9ecd09626.mp4
 
