@@ -171,6 +171,7 @@ nav ul li a:hover {
   padding: 0 10px;
   font-size: 0.9rem;
   color: #5fabe5;
+  word-break: break-word;
 }
 
 .messages__item {
@@ -253,19 +254,6 @@ nav ul li a:hover {
   box-shadow: 3px 3px 3px rgba(209, 207, 207, 0.5);
   background-color: inherit;
 }
-
-body::-webkit-scrollbar {
-  width: 0;
-}
-
-.chatbox__messages::-webkit-scrollbar {
-  width: 8px;
-  border-top-right-radius: 15px;
-}
-.chatbox__messages::-webkit-scrollbar-thumb {
-  background-color: rgb(94 75 75) !important;
-}
-
 @media (max-width: 400px) {
   .chatbox__support {
     width: 300px;
