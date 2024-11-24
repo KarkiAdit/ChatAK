@@ -1,51 +1,57 @@
-# ChatAK (AI powered chatbot built from scratch for personalized responses)
+# 🤖 ChatAK: AI-Powered Chatbot
 
-#### In this project, I have hard-coded ChatAK, an AI powered chatbot that uses `deep learning and neural networks based Machine learning algorithms.` This chatbot predicts the responses using `Python's Pytorch library.` I have used personalized datasets to train it.
+**ChatAK** is an AI-powered chatbot built from scratch, leveraging deep learning and neural networks for personalized responses. It uses `Python's PyTorch library` and is trained on custom datasets to predict user-specific replies.
 
-#### I have deployed this chatbot using Flask and JavaScript in Heroku: [See deployed app here.](https://chatak.herokuapp.com/)
+## 🎥 Demo
+[🧑‍💻 ChatAK Sample Demo](https://user-images.githubusercontent.com/68220732/152092372-37dcf4a9-9196-4780-b329-614a0063fd50.mp4)
 
-https://user-images.githubusercontent.com/68220732/152092372-37dcf4a9-9196-4780-b329-614a0063fd50.mp4
+## ⚙️ Initial Setup
 
-## Initial setup for running the app in your computer:
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/python-engineer/chatbot-deployment.git
+   cd chatbot-deployment
+   ```
+2. **Create a Virtual Environment**:
+    ```bash
+    python -m venv venv
+    source venv/Scripts/activate
+    ```
+3. **Install Dependencies**:
+    ```bash
+    pip install Flask torch torchvision nltk
+    ```
+4. **Download NLTK Package**:
+    ```bash
+    >>> import nltk
+    >>> nltk.download('punkt')
+    ```
+5. **Customize Chatbot**:
+    Edit `intents.json` to add your intents and responses.
+6. **Train Model**:
+    ```bash
+    python train.py
+    ```
+7. **Test Locally**:
+    ```bash
+    python chat.py
+    ```
 
-`This repo currently contains the final files.`
+## 🛠 Technologies Used
+- **Python** with PyTorch
+- **Flask** for backend
+- **JavaScript** for frontend
+- **Heroku** for deployment
+- **nltk** for text processing
 
-Clone repo and create a virtual environment. Below is the procedure for Windows users.
+## 📂 Folder Structure
+**train.py:** Training script for the chatbot model.<br>
+**chat.py:** Console-based testing.<br>
+**intents.json:** Stores intents and responses.<br>
+**static/:** Frontend files.<br>
+**templates/:** HTML templates for the web interface.<br>
+**data.pth:** Trained model file.
 
-```
-$ git clone https://github.com/python-engineer/chatbot-deployment.git
-$ cd chatbot-deployment
-$ python -m venv venv
-$ source venv/Scripts/activate
-```
+---
 
-Install dependencies
-
-```
-$ (venv) pip install Flask torch torchvision nltk
-```
-
-Install nltk package
-
-```
-$ (venv) python
->>> import nltk
->>> nltk.download('punkt')
-```
-
-Modify `intents.json` with different intents and responses for your Chatbot
-
-Run
-
-```
-$ (venv) python train.py
-```
-
-This will dump data.pth file. And then run
-the following command to test it in the console.
-
-```
-$ (venv) python chat.py
-```
-
-For deployment, publish the root directory (chatbot-deployment) to [GitHub](https://github.com/) as a new repository. After this, create a web-app in [Heroku](https://id.heroku.com/login) and link the published repository to the web-app. Learn more about deployment in Heroku [here.](https://www.youtube.com/watch?v=6plVs_ytIH8&t=1249s)
+**Happy Chatting!** 🎉 [Try it here](https://chatak.herokuapp.com/)
